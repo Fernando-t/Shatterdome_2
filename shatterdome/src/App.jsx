@@ -1,5 +1,7 @@
-import './App.css'
-import Header from './components/header'
+import './App.css';
+import ItemList from './components/ItemList';
+import Header from './components/header';
+
 
 
 
@@ -8,13 +10,14 @@ function App() {
 
   return (
     
-      <div>
-        <Header/>
+      <>
+        <Header />
+        <ItemList texto='David' />
         
-      </div>
+      </>
 
       
-  )
+  );
 }
 
-export default App
+export default App;
