@@ -56,7 +56,8 @@
 .menu a{
     display: block;
     padding: 1.3rem;
-    color: #fff;
+    color: #1a1919;
+    font-size: 20px;
     transition: all 0.3s ease-in-out;
 }
 .menu a:hover {
