@@ -3,7 +3,7 @@ import CartWidget from '../CartWidget';
 import './styles.css';
 
 
-const Header = () => {
+const Header = ({logo, menuItem}) => {
 
     return(
 
@@ -19,9 +19,7 @@ const Header = () => {
                     <li><a href="#">Products</a></li>
                     <li><a href="#">Gallery</a></li>
                     <li><a href="#">Contact Us</a></li>
-                    <li><a href="#">
-                    <CartWidget />
-                    </a></li>
+                    <li><a href="#"><CartWidget /></a></li>
                 </ul>
             </nav>
         </header>
